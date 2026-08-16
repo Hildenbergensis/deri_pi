@@ -1,0 +1,72 @@
+# Dependencias JavaScript e caches de gerenciadores de pacotes
+node_modules/
+.pnpm-store/
+.pnpm-home/
+.npm/
+.yarn/
+.pnp.*
+
+# Saidas de build e caches do frontend
+dist/
+build/
+.vite/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# Python: ambientes virtuais, bytecode, testes e ferramentas
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Variaveis de ambiente e configuracoes locais/sensiveis
+.env
+.env.*
+!.env.example
+!.env.sample
+*.local
+
+# Logs e arquivos de processos em execucao
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# Arquivos temporarios, backups e trocas de editores
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Arquivos temporarios criados pelo Microsoft Office
+~$*.xls
+~$*.xlsx
+~$*.xlsm
+
+# Configuracoes locais de editores e IDEs
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Metadados do sistema operacional
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
